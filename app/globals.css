@@ -424,7 +424,6 @@ nav.nav-scroll {
 }
 .embla__container {
   display: flex;
-  white-space: nowrap;
   transition-easing: ease-out;
 }
 .embla__slide {
