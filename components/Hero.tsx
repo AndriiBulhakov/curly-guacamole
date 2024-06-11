@@ -1,5 +1,4 @@
 "use client"
-
 import { heroContent } from "@/data"
 import VideoIcon from "./ui/VideoIcon"
 import VideoDescription from "./ui/VideoDescription"
