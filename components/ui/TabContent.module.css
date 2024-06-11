@@ -1,0 +1,152 @@
+.tab-content > div {
+  padding: 1.75rem 0.31rem 0.37rem 0.31rem;
+  background-color: #e9eef2;
+  border-radius: 1.375rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-content:first-child > div {
+  padding-top: 1rem;
+}
+
+.tab-content > div:nth-child(2) {
+  background-color: rgba(255, 72, 0, 0.8);
+}
+
+.tab-content > div:nth-child(2) > div > ul {
+  max-height: 36.4rem;
+}
+
+.tab-content > div:nth-child(2) > span {
+  color: #ffffff;
+}
+
+.tab-content > div:nth-child(2) > div > ul > li:last-child {
+}
+
+.tab-content > div:nth-child(2) > div > ul > li:last-child::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(180deg, rgba(255, 236, 231, 0) 0%, #ffece7 80%);
+  height: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.tab-content:first-child > div > span {
+  margin-bottom: 0.87rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tab-content > div > div {
+  padding: 1.25rem 1rem 0.87rem 1rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 1.125rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tab-content > div > div > ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tab-content > div:first-child > div {
+  padding: 1.25rem 1rem 2.25rem 1rem;
+}
+
+.tab-content > div > div > ul > li {
+  margin-bottom: 0.25rem;
+  padding: 0.69rem 0.87rem 1.44rem 0.81rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  width: fit-content;
+}
+
+.tab-content > div:first-child > div > ul > li:last-child::after {
+  content: url("/public/assets/images/tail.png");
+  position: absolute;
+  bottom: -1rem;
+  left: -1rem;
+  z-index: 1;
+}
+
+.tab-content > div:last-child > div > ul > li {
+  background-color: #ff4800;
+  color: #ffffff;
+}
+
+.tab-content > div:nth-child(2) > div > ul > li {
+  background-color: #ffece7;
+  overflow: hidden;
+  width: fit-content;
+  min-height: fit-content;
+}
+
+.tab-content > div:nth-child(2) > div > ul > li:last-child {
+  display: block !important;
+}
+
+.tab-content > div:nth-child(2) > div > ul > li > span:first-child {
+  width: 0px;
+}
+
+.tab-content > div:first-child > div > ul > li:nth-child(2),
+.tab-content > div:last-child > div > ul > li:first-child {
+  padding: 0.56rem 0.87rem 0.69rem 0.81rem;
+}
+
+.tab-content > div:last-child > div > ul > li,
+.tab-content > div:first-child > div > ul > li {
+  min-width: 7.5625rem;
+}
+
+.tab-content > div:first-child > div > ul > li:first-child {
+  margin-bottom: 1.19rem;
+  padding: 0;
+  background-color: transparent;
+}
+
+.tab-content video {
+  width: 100%;
+  border-radius: 0.875rem;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.message {
+  position: relative;
+}
+
+.message-time {
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.0125rem;
+  color: #1c1d20;
+  opacity: 0.4;
+  display: block;
+  align-self: flex-end;
+  transform: translateY(0.1rem);
+  position: absolute;
+  right: 0.69rem;
+  bottom: 0.69rem;
+}
+
+.copilot-message {
+  display: inline-block !important;
+}
+
+.tab-content > div:last-child > div > ul > li > span:last-child {
+  color: rgba(251, 251, 250, 0.8);
+}
